@@ -20,17 +20,14 @@
         transform: translateY(-10);
      }
 }
-.logocontainer 
-{
-    background-color: #F3F5FA;
-  
-}
+
 .logocontainer img
 {
-    background-color: #F3F5FA;
+  
     filter: grayscale(100);
     transition: all .3s;
 }
+
 .logocontainer img:hover
 {
     filter: none;
