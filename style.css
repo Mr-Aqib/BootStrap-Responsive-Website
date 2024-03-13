@@ -1,0 +1,22 @@
+:root
+{
+    --navcolor:#37517E;
+}
+.navcon
+{
+    background-color: var(--navcolor);
+}
+.colnavimg
+{
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+@keyframes  up-down
+{
+     from{
+        transform: translateY(10%);
+     }
+     to
+     {
+        transform: translateY(-10);
+     }
+}
