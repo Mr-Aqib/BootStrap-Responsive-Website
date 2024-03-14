@@ -10,6 +10,14 @@
 {
     animation: up-down 2s ease-in-out infinite alternate-reverse both;
 }
+.Voluptatem-text-h2
+{
+    color: var(--navcolor);
+}
+.progress-bar
+{
+    color: var(--navcolor);
+}
 @keyframes  up-down
 {
      from{
