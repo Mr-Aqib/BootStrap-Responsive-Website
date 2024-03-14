@@ -14,10 +14,7 @@
 {
     color: var(--navcolor);
 }
-.progress-bar
-{
-    color: var(--navcolor);
-}
+
 @keyframes  up-down
 {
      from{
