@@ -2,6 +2,23 @@
 {
     --navcolor:#37517E;
 }
+.gray
+{
+    width: 100px;
+    height: 2px;
+    background-color: lightgray;
+    position: relative;
+}
+.blue
+{
+    width: 40%;
+    height: 4px;
+    background-color:lightseagreen;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 .navcon
 {
     background-color: var(--navcolor);
@@ -26,6 +43,10 @@
 {
     transform: translateY(-20px);
 
+}
+.portfolio-h2
+{
+    color: #37517E;
 }
 .toaction-div
 {
