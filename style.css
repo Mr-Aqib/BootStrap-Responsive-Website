@@ -14,7 +14,23 @@
 {
     color: var(--navcolor);
 }
+.services-h2
+{
+    color: var(--navcolor);
+}
+.card-s
+{
+    transition: all .3s;
+}
+.card-s:hover
+{
+    transform: translateY(-20px);
 
+}
+.toaction-div
+{
+background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)),url(https://bootstrapmade.com/demo/templates/Arsha/assets/img/cta-bg.jpg) fixed center center;
+}
 @keyframes  up-down
 {
      from{
