@@ -61,6 +61,38 @@ background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)),url(ht
     background: rgba(55, 81, 126, 0.8);
     
 }
+.teams-h2
+{
+    color: #37517E;
+}
+.teams-img-div
+{
+    clip-path:circle() 
+}
+.bi-teams
+
+{
+    clip-path: circle();
+    font-size: 17px;
+    color: #37517E;
+    transition: all .4s;
+   
+}
+.t-cdiv
+{
+    transition: all .4s;
+    background-color: white;
+}
+.t-cdiv:hover
+{
+transform: translateY(-.5rem);
+}
+.bi-teams:hover{
+    color: aliceblue;
+    background-color: #37517E !important;
+    scale: 1.1;
+   transform: translateY(-.5rem);
+}
 .portfolio-img-div:hover .overlay
 {
     opacity: 100;
