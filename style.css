@@ -52,6 +52,34 @@
 {
 background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)),url(https://bootstrapmade.com/demo/templates/Arsha/assets/img/cta-bg.jpg) fixed center center;
 }
+
+.overlay
+{
+    background-color:  var(--navcolor);
+    opacity: 0;
+    transition: all .4s;
+    background: rgba(55, 81, 126, 0.8);
+    
+}
+.portfolio-img-div:hover .overlay
+{
+    opacity: 100;
+}
+.ol-img
+{
+    overflow: hidden;
+    
+}
+.ol-img img
+{
+    transition: all .3s;
+}
+.portfolio-img-div:hover .ol-img img
+{
+    scale: 1.2;
+
+}
+/* Screen -Size Responsive Mid */
 @keyframes  up-down
 {
      from{
