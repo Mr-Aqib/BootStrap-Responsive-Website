@@ -1,160 +1,186 @@
-:root
-{
-    --navcolor:#37517E;
+:root {
+  --navcolor: #37517e;
 }
-.gray
-{
-    width: 100px;
-    height: 2px;
-    background-color: lightgray;
-    position: relative;
+.gray {
+  width: 100px;
+  height: 2px;
+  background-color: lightgray;
+  position: relative;
 }
-.blue
-{
-    width: 40%;
-    height: 4px;
-    background-color:lightseagreen;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.blue {
+  width: 40%;
+  height: 4px;
+  background-color: lightseagreen;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
-.navcon
+.blue2
 {
-    background-color: var(--navcolor);
+    width: 100%;
+  height: 4px;
+  background-color: lightseagreen;
+ 
 }
-.colnavimg
-{
-    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+.navcon {
+  background-color: var(--navcolor);
 }
-.Voluptatem-text-h2
-{
-    color: var(--navcolor);
+.colnavimg {
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
 }
-.services-h2
-{
-    color: var(--navcolor);
+.Voluptatem-text-h2 {
+  color: var(--navcolor);
 }
-.card-s
-{
-    transition: all .3s;
+.services-h2 {
+  color: var(--navcolor);
 }
-.card-s:hover
-{
-    transform: translateY(-20px);
-
+.card-s {
+  transition: all 0.3s;
 }
-.portfolio-h2
-{
-    color: #37517E;
+.card-s:hover {
+  transform: translateY(-20px);
 }
-.toaction-div
-{
-background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)),url(https://bootstrapmade.com/demo/templates/Arsha/assets/img/cta-bg.jpg) fixed center center;
+.portfolio-h2 {
+  color: #37517e;
+}
+.toaction-div {
+  background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)),
+    url(https://bootstrapmade.com/demo/templates/Arsha/assets/img/cta-bg.jpg)
+      fixed center center;
 }
 
-.overlay
-{
-    background-color:  var(--navcolor);
-    opacity: 0;
-    transition: all .4s;
-    background: rgba(55, 81, 126, 0.8);
-    
+.overlay {
+  background-color: var(--navcolor);
+  opacity: 0;
+  transition: all 0.4s;
+  background: rgba(55, 81, 126, 0.8);
 }
-.teams-h2
-{
-    color: #37517E;
+.teams-h2 {
+  color: #37517e;
 }
-.teams-img-div
-{
-    clip-path:circle() 
+.teams-img-div {
+  clip-path: circle();
 }
-.bi-teams
-
+.bi-teams {
+  clip-path: circle();
+  font-size: 17px;
+  color: #37517e;
+  transition: all 0.4s;
+}
+.price-h2 {
+  color: #37517e;
+}
+.t-cdiv {
+  transition: all 0.4s;
+  background-color: white;
+}
+.t-cdiv:hover {
+  transform: translateY(-0.5rem);
+}
+.bi-teams:hover {
+  color: aliceblue;
+  background-color: #37517e !important;
+  scale: 1.1;
+  transform: translateY(-0.5rem);
+}
+.portfolio-img-div:hover .overlay {
+  opacity: 100;
+}
+.ol-img {
+  overflow: hidden;
+}
+.ol-img img {
+  transition: all 0.3s;
+}
+.portfolio-img-div:hover .ol-img img {
+  scale: 1.2;
+}
+.plans-ul li {
+  list-style: none;
+  font-size: 20px;
+  margin-bottom: 1rem;
+}
+.plans-card {
+  padding: 6rem 0rem 9rem 0rem;
+  transition: all 0.4s;
+}
+.plans-card:hover {
+  transform: translateY(-20px);
+  box-shadow: inset 0px 0px 57px -12px rgba(0,0,0,0.3) !important;
+}
+.plans-h2 {
+  color: #37517e;
+}
+.plans-p {
+  color: #37517e;
+}
+.plans-h2 span {
+  font-size: 20px;
+}
+.teams-icon
 {
+    color: #fdffff;
+    background-color: #94d2ed;
     clip-path: circle();
-    font-size: 17px;
-    color: #37517E;
-    transition: all .4s;
+    transition:  all .3s;
+}
+.arsha-p
+{
+    color: #37517e;
+}
+.news-button 
+{
+    right: 23%;
+}
+.news-le-h2
+{
+    color: #37517e;
+}
+.teams-icon:hover
+{
+background-color: #0daff5;
+color: black;
+transform: translateY(-10px);
+}
+.teams-h4
+{
+    color: #37517e;
    
 }
-.price-h2
+.teams-p
 {
-    color: #37517E;
-}
-.t-cdiv
-{
-    transition: all .4s;
-    background-color: white;
-}
-.t-cdiv:hover
-{
-transform: translateY(-.5rem);
-}
-.bi-teams:hover{
-    color: aliceblue;
-    background-color: #37517E !important;
-    scale: 1.1;
-   transform: translateY(-.5rem);
-}
-.portfolio-img-div:hover .overlay
-{
-    opacity: 100;
-}
-.ol-img
-{
-    overflow: hidden;
-    
-}
-.ol-img img
-{
-    transition: all .3s;
-}
-.portfolio-img-div:hover .ol-img img
-{
-    scale: 1.2;
-
+    color:#6182C0;
+    font-size: 15px;
 }
 /* Screen -Size Responsive Mid */
-@keyframes  up-down
-{
-     from{
-        transform: translateY(10%);
-     }
-     to
-     {
-        transform: translateY(-10);
-     }
+@keyframes up-down {
+  from {
+    transform: translateY(10%);
+  }
+  to {
+    transform: translateY(-10);
+  }
 }
 
-.logocontainer img
-{
-  
-    filter: grayscale(100);
-    transition: all .3s;
+.logocontainer img {
+  filter: grayscale(100);
+  transition: all 0.3s;
 }
 
-.logocontainer img:hover
-{
-    filter: none;
-    scale: 1.1;
+.logocontainer img:hover {
+  filter: none;
+  scale: 1.1;
 }
-.Eum-h2
-{
-    color: var(--navcolor);
+.Eum-h2 {
+  color: var(--navcolor);
 }
-@media only screen and (max-width:768px)
-{
-.navcon
-{
+@media only screen and (max-width: 768px) {
+  .navcon {
     height: 100vh;
-    
-}
-.better-sol-div
-{
+  }
+  .better-sol-div {
     height: 80%;
-    gap:1rem;
-
-}
-
+    gap: 1rem;
+  }
 }
