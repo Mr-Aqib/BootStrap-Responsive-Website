@@ -125,6 +125,73 @@
     clip-path: circle();
     transition:  all .3s;
 }
+.nav-right-icons
+{
+    color: #47B2E4;
+
+}
+.last-texts
+{
+    font-size: 15px;
+    font-weight: normal;
+}
+.last-nav-p
+
+{
+    color: white;
+}
+.last-nav-p a
+
+{
+   text-decoration: none;
+   color: #0daff5;
+   transition: all .3s;
+
+}
+.last-nav-p a:hover
+
+{
+    color: #2b92be;
+
+}
+
+.last-nav-div
+{
+    background-color: #37517e;
+}
+.last-nav-h5
+{
+    color: white;
+}
+.last-nav-span
+{
+    color: #0daff5;
+}
+.nav-list
+{
+    list-style: none;
+    line-height: 2.5rem;
+}
+.nav-list a
+{
+    text-decoration: none;
+    color: rgb(111, 108, 108);
+    transition: all .3s;
+}
+.nav-list a:hover
+{
+    
+  color: #0daff5;
+}
+
+.p-arsha-p
+{
+    font-size: 14px;
+}
+.p-arsha
+{
+    font-size: 14px;
+}
 .arsha-p
 {
     color: #37517e;
